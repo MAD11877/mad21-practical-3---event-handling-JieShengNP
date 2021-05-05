@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        User user = new User("Username", "I am a test user.", 1, false);
+        User user = new User();
         Button follow_button = findViewById(R.id.btnFollow);
         TextView txtName = findViewById(R.id.txtName);
         txtName.setText("MAD " + getIntent().getIntExtra("RandomID", 0));
