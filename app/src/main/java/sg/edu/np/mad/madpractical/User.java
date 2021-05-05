@@ -38,18 +38,4 @@ public class User {
     public void setFollowed(boolean followed) {
         this.followed = followed;
     }
-
-    public User(String name, String description, int id) {
-        this.name = name;
-        this.description = description;
-        this.id = id;
-        this.followed = false;
-    }
-
-    public User(String name, String description, int id, boolean followed) {
-        this.name = name;
-        this.description = description;
-        this.id = id;
-        this.followed = followed;
-    }
 }
